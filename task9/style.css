@@ -1,0 +1,38 @@
+*{
+margin: 0;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+}
+body{
+    width: 100%;
+    background-color: bisque;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+img{
+    width: 40px;
+}
+
+div{
+    transition: all 0.5s ease;
+    width: 300px;
+    border: 2px solid black;
+    height: 100px;
+}
+#pic{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+div:hover{
+    border:5px solid red;
+transform: translate(10px);
+}
